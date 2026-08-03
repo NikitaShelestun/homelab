@@ -28,3 +28,7 @@ Run Nginx and Apache2 simultaneously on VM, both with HTTPS, on different ports.
 - SSL/TLS certificate generation with OpenSSL
 - Port management and service isolation on a single host
 - Using of 'ss -tnlp' and 'systemctl' for debugging and resolving issues
+
+## Screenshots
+![Nginx and Apache HTTPS](~/homelab/Projects/dual-server-https/screenshots/screenshot-nginx-apache2.png)
+![Ports listening](~/homelab/Projects/dual-server-https/screenshots/screenshot-port-listening.png)
