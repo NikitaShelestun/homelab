@@ -1,18 +1,17 @@
-# homelab
-My home lab for Linux administration and Cyber Security.
-
-## Goals
--Get knowlege to automate server setup
--Build a penetration testing environment
--Document progress
+# Homelab
+Hands-on home lab for Linux administration, networking and Cyber Security tools and security strategies.
 
 ## Hardware
--VirtualBox on the host PC
--Kali Linux Server (Virtual Machine)
+- VirtualBox on the host PC
+- Kali Linux Server (Virtual Machine)
 
-## Progress log
+|    Component    |   Detail    |
+| --------------- | ----------- |
+|     Host OS     | Windows 10  |
+|    Hypervisor   | VirtualBox  |
+|     Guest OS    | Kali Linux  |
+| Version control | Git, GitHub |
 
-### 20.07.2026 - Start
--Installed Git
--Created a repository
--Connected the local repository to GitHub
+## Projects
+**Dual Server HTTPS** - [View](projects/dual-server-https/)
+[1]Nginx and Apache2 running simultaneously on one VM, both with HTTPS, on separate ports. Resolved port conflicts, generated self-signed certificate, documented the setup.
